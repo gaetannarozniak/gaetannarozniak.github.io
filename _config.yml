@@ -30,7 +30,7 @@ author:
   location         : "Paris, France"
   employer         : "Meta, Inria"
   uri              : # URL
-  email            : "firstname@meta.com" 
+  email            : "gaetan@meta.com" 
 
   # Academic websites
   academia         : # URL
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "gaetannarozniak"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/ga%C3%ABtan-narozniak-695b80217/"
+  linkedin         : "https://fr.linkedin.com/in/gaëtan-narozniak-695b80217"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
