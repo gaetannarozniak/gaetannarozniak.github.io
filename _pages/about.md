@@ -8,33 +8,26 @@ redirect_from:
 ---
 
 Hello! I am Gaëtan, an AI PhD student at Meta and Inria, with a strong interest in AI for Mathematics.
-I graduated from École Polytechnique and am currently pursuing my PhD under the supervision of Gérard Biau, Pierre Marion and Rémi Munos.
+I graduated from École Polytechnique and am currently pursuing my PhD under the supervision of [Gérard Biau](https://perso.lpsm.paris/~biau/), [Pierre Marion](https://pierremarion23.github.io/) and [Rémi Munos](https://researchers.lille.inria.fr/munos/).
 
 I am particularly interested of Reinforcement Learning for Large Language Models, in the domain of formal mathematics.
 
-A data-driven personal website
+Publications
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
+June 2026: Distilling LLM Feedback for Lean Theorem Proving
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+You can access the full paper on arXiv by clicking [here](https://arxiv.org/abs/2605.30861).
+
+Post-training for reasoning models usually combines supervised fine-tuning with reinforcement learning from verifiable rewards, often using GRPO. But GRPO can struggle with sparse rewards, limited exploration, and mode collapse. We introduce Feedback Distillation, a self-distillation-based training method that teaches a model to match its own token-level distribution when conditioned on privileged feedback from a language model. This gives richer supervision and can incorporate external knowledge. In Lean4 theorem proving, Feedback Distillation produces more diverse reasoning trajectories than GRPO, leading to higher policy entropy and stronger pass@k scaling. The two methods also complement each other: starting GRPO from a Feedback Distillation checkpoint performs better than either approach alone. Overall, the results suggest a promising direction for improving post-training in complex reasoning tasks.
+
+June 2025: Asymmetric REINFORCE for off-Policy Reinforcement Learning
+------
+You can access the full paper on arXiv by clicking [here](https://arxiv.org/abs/2506.20520).
+
+Overview: We study a simple off-policy REINFORCE method for aligning large language models, where a tunable baseline controls how strongly high- and low-reward samples are weighted.
+We show that when this baseline lower-bounds the expected reward, the method has a policy improvement guarantee.
+Experiments on stochastic bandits and state-of-the-art LLM reasoning tasks support the theory, suggesting that off-policy learning works best when it emphasizes positive rewards more than negative ones.
 
 Create content & metadata
 ------
