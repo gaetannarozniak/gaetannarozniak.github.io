@@ -24,7 +24,7 @@ repository               : "gaetannarozniak/gaetannarozniak.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Gaëtan Narozniak"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student in AI4Math, Meta, Inria"
   location         : "Paris, France"
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://fr.linkedin.com/in/gaëtan-narozniak-695b80217"
+  linkedin         : "www.linkedin.com/in/gaëtan-narozniak-695b80217"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
