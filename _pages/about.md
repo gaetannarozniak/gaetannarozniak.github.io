@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am Gaëtan, an AI PhD student at Meta and Inria, with a strong interest in AI for Mathematics.
+Hello! I am Gaëtan, an PhD student at Meta and Inria, with a strong interest in AI for Mathematics.
 I graduated from École Polytechnique and am currently pursuing my PhD under the supervision of [Gérard Biau](https://perso.lpsm.paris/~biau/), [Pierre Marion](https://pierremarion23.github.io/) and [Rémi Munos](https://researchers.lille.inria.fr/munos/).
 
 I am particularly interested of Reinforcement Learning for Large Language Models, in the domain of formal mathematics.
@@ -21,7 +21,7 @@ You can access the full paper on arXiv by clicking [here](https://arxiv.org/abs/
 
 Overview: Post-training for reasoning models usually combines supervised fine-tuning with reinforcement learning from verifiable rewards, often using GRPO. But GRPO can struggle with sparse rewards, limited exploration, and mode collapse. We introduce Feedback Distillation, a self-distillation-based training method that teaches a model to match its own token-level distribution when conditioned on privileged feedback from a language model. This gives richer supervision and can incorporate external knowledge. In Lean4 theorem proving, Feedback Distillation produces more diverse reasoning trajectories than GRPO, leading to higher policy entropy and stronger pass@k scaling. The two methods also complement each other: starting GRPO from a Feedback Distillation checkpoint performs better than either approach alone. Overall, the results suggest a promising direction for improving post-training in complex reasoning tasks.
 
-June 2025: Asymmetric REINFORCE for off-Policy Reinforcement Learning
+June 2025: Asymmetric REINFORCE for off-Policy Reinforcement Learning (Neurips 2025)
 ------
 You can access the full paper on arXiv by clicking [here](https://arxiv.org/abs/2506.20520).
 
